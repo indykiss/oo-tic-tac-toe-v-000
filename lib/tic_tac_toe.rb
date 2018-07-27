@@ -33,7 +33,7 @@ class TicTacToe
     @board = board
     @index = index
     @token = token
-    board[index] = token
+    @board[@index] = @token
   end
   
   
