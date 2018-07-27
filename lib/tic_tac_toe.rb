@@ -30,7 +30,6 @@ class TicTacToe
 
 
   def move
-    @board = board
     @index = index
     @token = token
     @board[@index] = @token
