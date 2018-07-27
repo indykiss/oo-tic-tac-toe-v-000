@@ -145,10 +145,10 @@ end
   end
 
 
-  def winner(board)
-  winning_combo = won?(board)
+  def winner
+  winning_combo = won?
      if winning_combo
-    return board[winning_combo[0]]
+    return @board[winning_combo[0]]
       end
   end
 
