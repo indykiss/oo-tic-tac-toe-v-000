@@ -5,9 +5,6 @@ class TicTacToe
    @board = board
   end
   
-  def game 
-    @game = game
-  end 
   
   WIN_COMBINATIONS = [
   [0,1,2],
