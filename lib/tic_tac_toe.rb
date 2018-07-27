@@ -134,10 +134,10 @@ end
   end
   
 
-  def over?(board)
-    if full?(board) || draw?(board)
+  def over?
+    if full? || draw?
       return true
-        elsif won?(board)
+        elsif won?
           return true
     else  
       return false
