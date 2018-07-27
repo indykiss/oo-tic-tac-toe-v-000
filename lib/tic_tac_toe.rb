@@ -153,9 +153,9 @@ end
   end
 
 
-  def play(board) 
-    while !over?(board)
-      turn(board)
+  def play
+    while !over?
+      turn
     end 
   
     if draw?(board)
