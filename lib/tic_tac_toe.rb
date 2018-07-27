@@ -148,7 +148,7 @@ end
   def winner
   winning_combo = won?
      if winning_combo
-    return oard[winning_combo[0]]
+    return board[winning_combo[0]]
       end
   end
 
